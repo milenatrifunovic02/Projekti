@@ -1,0 +1,60 @@
+body{
+    background-image: url(img/bg1.png);
+    /*background-repeat: no-repeat, repeat;*/
+    background-color: #cccccc;
+    background-size: cover;
+}
+
+#navbarNavAltMarkup{
+    justify-content: end;
+}
+
+.navbar-nav{
+    background-color: rgba(128, 128, 128, 0.696);
+    padding: 5px 60px 5px 60px;
+}
+
+#naslov{
+    text-align: center;
+    justify-content: center;
+    color:rgba(249, 234, 215, 0.837)
+}
+
+#c1{
+    box-shadow:
+    0 0 30px 10px #f44709;
+    color: white;
+}
+
+#c2{
+    box-shadow:
+    0 0 30px 10px #f0bd03;
+    color: white;
+}
+
+#c3{
+    box-shadow:
+    0 0 30px 10px #ff960d;
+    color: white;
+}
+
+.card-img-top{
+    width: 50px;
+    height: 50px;
+}
+
+.btn{
+    background-color: #d39a0a;
+    border: 0;
+    color: rgba(255, 255, 255, 0.836);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-left: 120px;
+    display: center;
+}
+
+a:hover{
+    background-color: gray;
+}
