@@ -1,0 +1,48 @@
+body{
+   background-color: rgb(25, 19, 27);
+   font-family: cursive;
+   background-attachment: fixed;
+}
+
+a:hover{
+    background-color: blueviolet;
+}
+
+nav{
+    margin-bottom: 20px;
+    background-color: rgb(38, 19, 55);
+}
+#navbarNavAltMarkup{
+    color: white;
+    text-align: right;
+    justify-content: right;
+}
+
+#tekst{
+    margin-top: 90px;
+    color: rgb(238, 187, 240);
+    opacity: 80%;
+    z-index: 0.5;
+    text-align: left;
+    float: center;
+}
+
+#gr1{
+    background: rgb(2,0,36);
+    background: linear-gradient(150deg, rgb(201, 92, 255) 0%, rgb(121, 9, 112) 35%, rgb(8, 0, 36) 100%);
+}
+
+#gr2{
+    background: rgb(111, 110, 130);
+    background: linear-gradient(45deg, rgb(28, 24, 25) 0%, rgb(0, 0, 0) 35%, rgb(41, 1, 53)100%);
+}
+
+#gr3{
+    background: rgb(111, 110, 130);
+    background: linear-gradient(190deg, rgb(28, 24, 25) 0%, rgb(38, 21, 47) 35%, rgb(14, 30, 98)100%);
+}
+
+footer{
+    margin-bottom: 20px;
+    background-color: rgb(38, 19, 55);
+}
