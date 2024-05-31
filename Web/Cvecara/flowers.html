@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Magija Latica - Vrste cveća</title>
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="./style/cards.css">
+  <link rel="stylesheet" href="./style/search.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="logo">
+    <div class="borderLogo">
+      <a href="index.html"><img src="./img/logoFlower.png" alt="cvecara" class="img-logo"></a>
+    </div>
+  </div>
+
+  <nav class="nav nav-pills nav-justified bg-light">
+    <a class="nav-link" href="index.html"><i class="fa fa-home"></i> Početna</a>
+    <a class="nav-link  active activehover" aria-current="page" href="flowers.html"><i class="fa fa-pagelines"></i>
+      Cveće</a>
+    <a class="nav-link" href="sezone.html"><i class="fa fa-calendar"></i> Sezone</a>
+    <a class="nav-link" href="oCvecari.html"><i class="fa fa-info-circle"></i> O nama</a>
+    <a class="nav-link" href="kontakt.html"><i class="fa fa-envelope"></i> Kontakt</a>
+  </nav>
+
+  <div class="tekstopis">
+    <div class="TekstNalov mt-3">
+      <h4 class="subtitle">-ˋˏ Vrste cveća ˎˊ-</h4>
+      <p class="Tekst">
+        Pružamo vam brz i jednostavan pristup raznolikom svetu vrsta cveća.<br>Iskoristite
+        mogućnost pretrage kako biste lako pronašli omiljeno cveće za vaš vrt ili posebnu priliku.
+      </p>
+      <p class="Tekst text-secondary mb-5">
+        Svaka vrsta je predstavljena nekim osnovnim informacijama pružajući vam sve sto vam je potrebno na
+        jednom mestu.<br>Uz nas, istraživanje i uživanje u lepoti cvetnog sveta nikada nije bilo lakše!
+      </p>
+    </div>
+  </div>
+
+  <div class="searchBox" id="pretraga">
+    <input class="searchInput" type="text" name="" id="unos" placeholder="Pretraži...">
+    <button class="searchButton" href="#" type="submit" onclick="pretraziProizvode()">
+      <i class="fa fa-search"></i>
+    </button>
+  </div>
+
+  <hr>
+
+  <div class="container flowers">
+    <div class="row" id="greskaRed">
+      <div class="col-lg col-md col-sm">
+        <p id="greskaPoruka"><b>Žao nam je!</b><br><small id="greskatekst">Pogrešan unos pretrage. Pokušajte
+            ponovo.</small>
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-6 col-sm-12 col-md-12 d-flex flex-wrap">
+        <div class="card mb-3">
+          <div class="row redic">
+            <div class="img-div col-lg-6 col-md-6 col-sm-6 col-xs-4">
+              <img src="./img/vrste/redmarigold.jpg" class="img-fluid card-img" alt="Marigold">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-4">
+              <div class="card-body">
+                <h5 class="card-header text-center">Kadifa</h5>
+                <p class="card-text text-center">Kadife su cvetovi sa svetlim i toplim bojama. Imaju karakterističan
+                  miris i često se koriste u baštama i vrtovima.</p>
+                <div class="card-text-info">
+                  <p>Latinski naziv: Tagetes</p>
+                  <p>Engleski naziv: Marigold</p>
+                  <p>Sezona: Leto</p>
+                  <p>Simbol: Kadife simbolizuju radost, toplinu i pozitivnu energiju.</p>
+                  <hr>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg">
+                <a class="card-link flower" href="https://www.gardendesign.com/flowers/marigold.html">
+                  Više informacija...
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="colors">
+              <p class="card-footer-text mt-2">Boje:</p>
+              <div class="colorBox" style="background-color: red;"></div>
+              <div class="colorBox"
+                style="background: linear-gradient(50deg, rgba(255,255,0,1) 15%, rgba(255, 0, 0, 0.849) 50%, rgba(153,0,0,1) 100%);">
+              </div>
+              <div class="colorBox" style="background-color: orange;"></div>
+              <div class="colorBox" style="background-color: yellow;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-sm-12 col-md-12 d-flex flex-wrap">
+        <div class="card mb-3">
+          <div class="row">
+            <div class="img-div col-lg-6 col-md-6 col-sm-6 col-xs-4">
+              <img src="./img/vrste/rose.png" class="img-fluid card-img" alt="Marigold">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-4">
+              <div class="card-body">
+                <h5 class="card-header text-center">Ruža</h5>
+                <p class="card-text text-center">Ruže su prelepi cvetovi različitih boja i oblika, poznata po svojoj
+                  lepoti i bogatom mirisu.
+                <p>
+                <div class="card-text-info">
+                  <p>Latinski naziv: Rosa</p>
+                  <p>Engleski naziv: Rosa</p>
+                  <p>Sezona cvetanja: Leto</p>
+                  <p>Simbol: Ruže su često simbol ljubavi i strasti, ali simbolika zavisi od boje.</p>
+                  <hr>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg">
+                <a class="card-link flower" href="https://www.gardenista.com/posts/roses-growing-care-plant-guide/">
+                  Više informacija...
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="colors">
+              <p class="card-footer-text mt-2">Boje:</p>
+              <div class="colorBox" style="background-color: red;"></div>
+              <div class="colorBox" style="background-color: white;"></div>
+              <div class="colorBox" style="background-color: rgb(254, 155, 171);"></div>
+              <div class="colorBox" style="background-color: orange;"></div>
+              <div class="colorBox" style="background-color: yellow;"></div>
+              <div class="colorBox" style="background-color: purple;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-6 col-sm-12 col-md-12 d-flex flex-wrap">
+        <div class="card mb-3">
+          <div class="row redic">
+            <div class="img-div col-lg-6 col-md-6 col-sm-6 col-xs-4">
+              <img src="./img/vrste/tulips.jpg" class="img-fluid card-img" alt="Marigold">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-4">
+              <div class="card-body">
+                <h5 class="card-header text-center">Lala</h5>
+                <p class="card-text text-center">Lale su šarene prolećne biljke koje se javljaju u različitim bojama.
+                </p>
+                <div class="card-text-info">
+                  <p>Latinski naziv: Tulipa</p>
+                  <p>Engleski naziv: Tulip</p>
+                  <p>Sezona cvetanja: Proleće</p>
+                  <p>Simbol: Lale često simbolizuju proleće i obnavljanje, ali simbolika može varirati.</p>
+                  <hr>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg">
+                <a class="card-link flower" href="https://www.longfield-gardens.com/article/all-about-tulips">
+                  Više informacija...
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="colors">
+              <p class="card-footer-text mt-2">Boje:</p>
+              <div class="colorBox" style="background-color: red;"></div>
+              <div class="colorBox" style="background-color: white;"></div>
+              <div class="colorBox" style="background-color: orange;"></div>
+              <div class="colorBox" style="background-color: yellow;"></div>
+              <div class="colorBox" style="background-color: rgb(196, 118, 131);"></div>
+              <div class="colorBox" style="background-color: purple;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-sm-12 col-md-12 d-flex flex-wrap">
+        <div class="card mb-3">
+          <div class="row">
+            <div class="img-div col-lg-6 col-md-6 col-sm-6 col-xs-4">
+              <img src="./img/vrste/daffodils.jpg" class="img-fluid card-img" alt="Marigold">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-4">
+              <div class="card-body">
+                <h5 class="card-header text-center">Narcis</h5>
+                <p class="card-text text-center"> Narcisi su prelepi cvetovi poznati po svojim svetlim bojama i
+                  specifičnom obliku.
+                <p>
+                <div class="card-text-info">
+                  <p>Latinski naziv: Narcissus</p>
+                  <p>Engleski naziv: Daffodil</p>
+                  <p>Sezona: Proleće</p>
+                  <p>Simbol: Narcisi simbolizuju obnavljanje i novi početak.</p>
+                  <hr>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg">
+                <a class="card-link flower" href="https://www.longfield-gardens.com/article/all-about-daffodils/">
+                  Više informacija...
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="colors">
+              <p class="card-footer-text mt-2">Boje:</p>
+              <div class="colorBox"
+                style="background: linear-gradient(50deg, rgb(255, 136, 0) 15%, rgba(255, 219, 18, 0.789) 50%, rgb(248, 248, 12) 100%);">
+              </div>
+              <div class="colorBox"
+                style="background: linear-gradient(50deg, rgb(255, 255, 255) 15%, rgba(239, 255, 18, 0.789) 50%, rgb(248, 248, 12) 100%);">
+              </div>
+              <div class="colorBox" style="background-color: yellow;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-6 col-sm-12 col-md-12 d-flex flex-wrap">
+        <div class="card mb-3">
+          <div class="row redic">
+            <div class="img-div col-lg-6 col-md-6 col-sm-6 col-xs-4">
+              <img src="./img/vrste/camellia.jpg" class="img-fluid card-img" alt="Marigold">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-4">
+              <div class="card-body">
+                <h5 class="card-header text-center">Kamelija</h5>
+                <p class="card-text text-center">Kamelije su zimzelene biljke sa prelepim cvetovima različitih boja.</p>
+                <div class="card-text-info">
+                  <p>Latinski naziv: Camellia</p>
+                  <p>Engleski naziv: Camellia</p>
+                  <p>Sezona cvetanja: Zima i proleće</p>
+                  <p>Simbol: Kamelije su simbol ljubavi, strasti i divljenja.</p>
+                  <hr>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg">
+                <a class="card-link flower" href="https://www.thespruce.com/camellia-flowers-1316021">
+                  Više informacija...
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="colors">
+              <p class="card-footer-text mt-2">Boje:</p>
+              <div class="colorBox" style="background-color: red;"></div>
+              <div class="colorBox" style="background-color: rgb(255, 117, 140);"></div>
+              <div class="colorBox" style="background-color: white;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-12 d-flex flex-wrap">
+        <div class="card mb-3">
+          <div class="row">
+            <div class="img-div col-lg-6 col-md-6 col-sm-6 col-xs-4">
+              <img src="./img/vrste/Gladiolus.jpg" class="img-fluid card-img" alt="Marigold">
+            </div>
+            <div class="col-lg-6 col-sm-12 col-md-6 col-sm-6 col-xs-4">
+              <div class="card-body">
+                <h5 class="card-header text-center">Gladiola</h5>
+                <p class="card-text text-center">Gladiole su visoke i elegantne cvetnice sa cvetovima različitih boja.
+                <p>
+                <div class="card-text-info">
+                  <p>Latinski naziv: Gladiolus</p>
+                  <p>Engleski naziv: Gladiolus</p>
+                  <p>Sezona cvetanja: Leto i jesen</p>
+                  <p>Simbol: Gladiole često simbolizuju snagu, hrabrost i moral.</p>
+                  <hr>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg">
+                <a class="card-link flower"
+                  href="https://www.longfield-gardens.com/article/all-about-gladiolus#:~:text=Gladiolas%20are%20available%20in%20a,are%20incredibly%20easy%20to%20grow.">
+                  Više informacija...
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="colors">
+              <p class="card-footer-text mt-2">Boje:</p>
+              <div class="colorBox" style="background-color: red;"></div>
+              <div class="colorBox" style="background-color: white;"></div>
+              <div class="colorBox" style="background-color: rgb(254, 155, 171);"></div>
+              <div class="colorBox" style="background-color: orange;"></div>
+              <div class="colorBox" style="background-color: yellow;"></div>
+              <div class="colorBox" style="background-color: purple;"></div>
+              <div class="colorBox" style="background-color: #fefbc1;"></div>
+              <div class="colorBox" style="background-color: #e19cff;"></div>
+              <div class="colorBox" style="background-color: rgb(194, 248, 118);"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-6 col-sm-12 col-md-12 d-flex flex-wrap">
+        <div class="card mb-3">
+          <div class="row redic">
+            <div class="img-div col-lg-6 col-md-6 col-sm-6 col-xs-4">
+              <img src="./img/vrste/orchids.jpg" class="img-fluid card-img" alt="Marigold">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-4">
+              <div class="card-body">
+                <h5 class="card-header text-center">Orhideja</h5>
+                <p class="card-text text-center">Orhideje su egzotične biljke sa karakterističnim cvetovima.</p>
+                <div class="card-text-info">
+                  <p>Latinski naziv: Orchidaceae</p>
+                  <p>Engleski naziv: Orchid</p>
+                  <p>Sezona cvetanja: Različite, zavisno od vrste</p>
+                  <p>Simbol: Orhideje simbolizuju lepotu, ljubav, i luksuz./p>
+                    <hr>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg">
+                <a class="card-link flower"
+                  href="https://www.gardeningknowhow.com/ornamental/flowers/orchids/indoor-orchid-care.htm">
+                  Više informacija...
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="colors">
+              <p class="card-footer-text mt-2">Boje:</p>
+              <div class="colorBox" style="background-color: red;"></div>
+              <div class="colorBox" style="background-color: white;"></div>
+              <div class="colorBox" style="background-color: rgb(254, 155, 171);"></div>
+              <div class="colorBox" style="background-color: orange;"></div>
+              <div class="colorBox" style="background-color: yellow;"></div>
+              <div class="colorBox" style="background-color: purple;"></div>
+              <div class="colorBox" style="background-color: rgb(108, 108, 249);"></div>
+              <div class="colorBox" style="background-color: rgb(86, 255, 86);"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-sm-12 col-md-12 d-flex flex-wrap">
+        <div class="card mb-3">
+          <div class="row">
+            <div class="img-div col-lg-6 col-md-6 col-sm-6 col-xs-4">
+              <img src="./img/vrste/dahlia.jpg" class="img-fluid card-img" alt="Marigold">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-4">
+              <div class="card-body">
+                <h5 class="card-header text-center">Dalija</h5>
+                <p class="card-text text-center"> Dalija je cvet sa velikim i raznobojnim cvetovima, često sa složenom
+                  strukturom latica.
+                <p>
+                <div class="card-text-info">
+                  <p>Latinski naziv: Dahlia</p>
+                  <p>Engleski naziv: Dahlia</p>
+                  <p>Sezona: Leto i jesen</p>
+                  <p>Simbol: Dahlia simbolizuje lepotu, eleganciju i izražavanje zahvalnosti.</p>
+                  <hr>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg">
+                <a class="card-link flower" href="https://www.bhg.com/gardening/flowers/bulbs/dahlia-flowers/">
+                  Više informacija...
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="colors">
+              <p class="card-footer-text mt-2">Boje:</p>
+              <div class="colorBox" style="background-color: #FF775E;"></div>
+              <div class="colorBox" style="background-color: #f4bfff;"></div>
+              <div class="colorBox" style="background-color: red;"></div>
+              <div class="colorBox" style="background-color: white;"></div>
+              <div class="colorBox" style="background-color: orange;"></div>
+              <div class="colorBox" style="background-color: rgb(246, 128, 148);"></div>
+              <div class="colorBox" style="background-color: rgb(109, 3, 3);"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="loading">
+    <img class="gif" src="./img/gif/loading2.gif">
+  </div>
+
+  <footer class="footer">
+    <div class="image-container">
+      <div class="overlay-text">
+        <h5 id="info" class="shine">ઇଓ..-⎻⎺⎺ Informacije ⎺⎺⎻-..ઇଓ </h5>
+        <br>
+        <p class="info-text">
+          <a href="kontakt.html">Kontakt</a>
+          |
+          <a href="oCvecari.html">Lokacija</a>
+          <br>
+          ⎻⎺⎺⎻-⎽__⎽--⎻⎺⎺⎻--⎻⎺⎺⎻-⎽__⎽--⎻⎺⎺⎻-..ઇଓ
+        </p>
+        <p class="info-text" id="CopyrightYear">
+          © Copyright 2024
+          <br>
+          <span id="datum"></span>
+        </p>
+      </div>
+      <img src="./img/footer.png" alt="footer img" class="img-fluid footer-img">
+    </div>
+  </footer>
+
+  <script src="./script/time.js"></script>
+  <script src="./script/script.js"></script>
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Magija Latica - Godišnja doba</title>
+
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="./style/expandingcards.css">
+  <link rel="stylesheet" href="./style/table.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="logo">
+    <div class="borderLogo">
+      <a href="index.html"><img src="./img/logoFlower.png" alt="cvecara" class="img-logo"></a>
+    </div>
+  </div>
+
+  <nav class="nav nav-pills nav-justified bg-light">
+    <a class="nav-link" href="index.html"><i class="fa fa-home"></i> Početna</a>
+    <a class="nav-link" href="flowers.html"><i class="fa fa-pagelines"></i> Cveće</a>
+    <a class="nav-link active activehover" aria-current="page" href="sezone.html"><i class="fa fa-calendar"></i>
+      Sezone</a>
+    <a class="nav-link" href="oCvecari.html"><i class="fa fa-info-circle"></i> O nama</a>
+    <a class="nav-link" href="kontakt.html"><i class="fa fa-envelope"></i> Kontakt</a>
+  </nav>
+
+  <div class="tekstopis">
+    <div class="TekstNalov mt-3">
+      <h4 class="subtitle">-ˋˏ Godišnja doba ˎˊ-</h4>
+      <p class="Tekst">
+        Godišnja doba su četiri različita perioda u kalendaru koja obeležavaju promene u <br>atmosferskim uslovima,
+        temperaturi i dužini dana. Ova četiri godišnja doba su:<br>
+        ✿ Proleće, ☀︎ Leto, <i class="fa fa-leaf"></i> Jesen, <i class="fa fa-snowflake-o"></i> Zima.
+      </p>
+      <p class="Tekst text-secondary mb-5">
+        Svako od ovih godišnjih doba ima svoje karakteristike i utiče na život na Zemlji na različite načine,<br>
+        uključujući i promene u prirodi, poljoprivredi i životinjskom svetu.<br>
+        Takođe, pružamo vam informacije koje je cveće dostupno u kojoj sezoni.
+      </p>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="expand mt-3">
+    <div class="gallery">
+      <div class="img-box" onclick="prikaziP()" id="prolece">
+        <h3 id="h3prolece">Proleće</h3>
+        <p class="textsezone">
+          Proleće je jedno od četiri godišnja doba, karakteristično po cvetanju biljaka,
+          toplijem vremenu i dužem trajanju dnevnog svetla. U mnogim delovima sveta,
+          proleće obično počinje 20. marta na severnoj hemisferi i 22. septembra na južnoj hemisferi.
+          Međutim, ta tačna vremenska podešavanja mogu varirati u zavisnosti od geografskog položaja.
+        </p>
+      </div>
+      <div class="img-box" id="leto" onclick="prikaziL()">
+        <h3>Leto</h3>
+        <p class="textsezone">
+          Leto je još jedno od četiri godišnja doba, koje obično sledi proleće.
+          To je period godine koji se karakteriše toplim vremenom, dugim danima,
+          visokim temperaturama i obiljem sunčeve svetlosti. Na severnoj hemisferi,
+          leto obično počinje 21. juna, dok na južnoj hemisferi počinje 21. decembra.
+        </p>
+      </div>
+      <div class="img-box" id="jesen" onclick="prikaziJ()">
+        <h3>Jesen</h3>
+        <p class="textsezone">
+          Jesen je treće od četiri godišnja doba, koje dolazi nakon leta i pre zime.
+          Na severnoj hemisferi, jesen obično počinje 22. septembra, dok na južnoj
+          hemisferi počinje 20. marta. Ovo doba godine karakteriše promena boje lišća
+          na drveću, opadanje lišća, hladnije temperature i kraći dani.
+        </p>
+      </div>
+      <div class="img-box" id="zima" onclick="prikaziZ()">
+        <h3>Zima</h3>
+        <p class="textsezone">
+          Zima je četvrto i poslednje godišnje doba u kalendaru, koje dolazi nakon jeseni
+          i pre proleća. Na severnoj hemisferi, zima obično počinje 21. decembra, dok na južnoj
+          hemisferi počinje 21. juna. Ovo doba godine karakteriše hladno vreme, kraći dani,
+          duže noći i u nekim regionima - padavine u obliku snega.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <p class="TekstP" id="textcvece">
+    Nekoliko vrsta cveća koje cvetaju u ovom godišnjem dobu:
+  </p>
+  <table class="table seasonTable" id="prolecetable">
+    <thead class="tableTitle">
+      <tr>
+        <th colspan="3">Proleće</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th class="subtitleTable" colspan="3">Prolećno cveće:</th>
+      </tr>
+      <tr>
+      <tr>
+        <td>Narcis</td>
+        <td>Magnolija</td>
+        <td>Ljiljani</td>
+      </tr>
+      <tr>
+        <td>Ljubičica</td>
+        <td>Viole</td>
+        <td>Krokus</td>
+      </tr>
+      <tr>
+        <td>Zumbul</td>
+        <td>Jorgovan</td>
+        <td>Narcis</td>
+      </tr>
+      <tr>
+        <td>Lala</td>
+        <td>Jagorčevina</td>
+        <td>Božur</td>
+      </tr>
+      <tr>
+        <td colspan="3" class="tableLink"><a href="https://mitrovica.info/najlepse-rano-prolecno-cvece/">Više prolećnog
+            cveća...</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <table class="table seasonTable" id="letotable">
+    <thead class="tableTitle">
+      <tr>
+        <th colspan="3">Leto</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th class="subtitleTable" colspan="3">Letnje cveće</th>
+      </tr>
+      <tr>
+        <td>Hortenzija</td>
+        <td>Lavanda</td>
+        <td>Ruža</td>
+      </tr>
+      <tr>
+        <td>Petunija</td>
+        <td>Begonija</td>
+        <td>Kadifa</td>
+      </tr>
+      <tr>
+        <td>Cinija</td>
+        <td>Perunika</td>
+        <td>Vrbena</td>
+      </tr>
+      <tr>
+        <td>Lepa Kata</td>
+        <td>Dalija</td>
+        <td>Hibiskus</td>
+      </tr>
+      <tr>
+        <td colspan="3" class="tableLink"><a
+            href="https://stil.kurir.rs/foto-galerije/127971/20-vrsta-cveca-koje-cveta-celo-leto-za-bastu-punu-boja-i-mirisa">Više
+            letnjeg cveća...</a></td>
+    </tbody>
+  </table>
+
+  <table class="table seasonTable" id="jesentable">
+    <thead class="tableTitle">
+      <tr>
+        <th colspan="3">Jesen</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th class="subtitleTable" colspan="3">Jesenje cveće</th>
+      </tr>
+      <tr>
+        <td>Vresak</td>
+        <td>Hrizanteme</td>
+        <td>Hojhera</td>
+      </tr>
+      <tr>
+        <td>Dan-noć</td>
+        <td>Ukrasna kopriva</td>
+        <td>Sedumi</td>
+      </tr>
+      <tr>
+        <td>Skimija</td>
+        <td>Berberis</td>
+        <td>Kaluna</td>
+      </tr>
+      <tr>
+        <td>Kletra</td>
+        <td>Kariopteris</td>
+        <td>Zevalica</td>
+      </tr>
+      <tr>
+        <td colspan="3" class="tableLink"><a href="https://www.floraekspres.rs/jesenje-cvece-za-bastu/">Više jesenjeg
+            cveća...</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="table seasonTable" id="zimatable">
+    <thead class="tableTitle">
+      <tr>
+        <th colspan="3">Zima</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th class="subtitleTable" colspan="3">Zimsko cveće</th>
+      </tr>
+      <tr>
+        <td>Orhideja</td>
+        <td>Božićna zvezda</td>
+        <td>Zimski jasmin</td>
+      </tr>
+      <tr>
+        <td>Zimska ruža</td>
+        <td>Erika</td>
+        <td>Gailardija</td>
+      </tr>
+      <tr>
+        <td>Ciklama</td>
+        <td>Primula</td>
+        <td>Ukrasni kupus</td>
+      </tr>
+      <tr>
+        <td colspan="3" class="tableLink"><a
+            href=https://www.mojenterijer.rs/moj-vrt/koje-cvece-moze-da-raste-na-balkonu-zimi-5-sarenih-predloga/3#">Više
+            zimskog cveća...</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer class="footer">
+    <div class="image-container">
+      <div class="overlay-text">
+        <h5 id="info" class="shine">ઇଓ..-⎻⎺⎺ Informacije ⎺⎺⎻-..ઇଓ </h5>
+        <br>
+        <p class="info-text">
+          <a href="kontakt.html">Kontakt</a>
+          |
+          <a href="oCvecari.html">Lokacija</a>
+          <br>
+          ⎻⎺⎺⎻-⎽__⎽--⎻⎺⎺⎻--⎻⎺⎺⎻-⎽__⎽--⎻⎺⎺⎻-..ઇଓ
+        </p>
+        <p class="info-text" id="CopyrightYear">
+          © Copyright 2024
+          <br>
+          <span id="datum"></span>
+        </p>
+      </div>
+      <img src="./img/footer.png" alt="footer img" class="img-fluid footer-img">
+    </div>
+  </footer>
+  <script src="./script/time.js"></script>
+  <script src="./script/sezone.js"></script>
+  <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

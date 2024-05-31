@@ -1,0 +1,56 @@
+form {
+  height: 420px;
+  border: 3px solid #3A4D39 !important;
+  background-color: #739072 !important;
+  color: #ECE3CE;
+  width: 680px;
+}
+
+form:hover {
+  border: 4px dotted #3A4D39 !important;
+}
+
+.kontakt {
+  border: 2px solid #3A4D39;
+  margin: 10px auto;
+  border-radius: 20px;
+  background-color: #ece3cebb;
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.kontakt:hover {
+  color: #ECE3CE;
+  font-weight: bold;
+  background-color: #3A4D39;
+  border: 2px solid #ECE3CE;
+}
+
+label {
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+input {
+  width: 620px !important;
+  margin: auto;
+  border: 1px solid #3A4D39 !important;
+  border-radius: 30px !important;
+}
+
+.kontakt-nav {
+  width: 500px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-top: none;
+  font-size: 22px;
+}
+
+.kontakt-nav-item {
+  border: none !important;
+  background: none !important;
+}
