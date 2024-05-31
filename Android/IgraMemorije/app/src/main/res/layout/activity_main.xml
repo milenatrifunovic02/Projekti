@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wallpaperbg"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginRight="20dp"
+            android:background="#3B9FBCC8"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text=" Ghibli parovi "
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#3B9FBCC8"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text=" -Igra memorije- "
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/logow" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/win"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:backgroundTint="#3B9FBCC8"
+                android:fontFamily="@font/akaya_telivigala"
+                android:text="Započni igru"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                app:strokeColor="@color/white"
+                app:strokeWidth="3dp" />
+
+            <Button
+                android:id="@+id/aboutGame"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:backgroundTint="#3B9FBCC8"
+                android:fontFamily="@font/akaya_telivigala"
+                android:text="Opis igre"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                app:strokeColor="@color/white"
+                app:strokeWidth="3dp" />
+
+            <Button
+                android:id="@+id/exitGame"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:backgroundTint="#3B9FBCC8"
+                android:fontFamily="@font/akaya_telivigala"
+                android:text="Izađi"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                app:strokeColor="@color/white"
+                app:strokeWidth="3dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+</LinearLayout>
